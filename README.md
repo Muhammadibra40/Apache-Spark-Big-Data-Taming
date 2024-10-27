@@ -76,22 +76,12 @@ Apache-Spark-Big-Data-Taming/
 │   ├── dataset2.json
 │   └── ...
 │
-├── notebooks/          # Jupyter notebooks for PySpark examples
-│   ├── data_processing.ipynb
-│   ├── spark_sql_example.ipynb
-│   └── ...
-│
-├── scala/              # Scala scripts for Spark examples
-│   ├── RDD_example.scala
-│   ├── DataFrame_example.scala
-│   └── ...
 │
 ├── python/             # Python scripts for PySpark examples
 │   ├── rdd_example.py
 │   ├── dataframe_example.py
 │   └── ...
 │
-├── requirements.txt    # Python dependencies for PySpark
 │
 └── README.md           # Project documentation
 ```
