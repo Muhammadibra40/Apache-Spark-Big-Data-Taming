@@ -96,18 +96,6 @@ Apache-Spark-Big-Data-Taming/
 - Provides examples of using **Spark SQL** for querying structured data.
 - Shows how to create **DataFrames** from various data sources (CSV, JSON, Parquet).
 
-### 3. Machine Learning with MLlib
-- Implements basic machine learning algorithms such as **Linear Regression**, **Logistic Regression**, and **K-Means Clustering** using **MLlib**.
-- Demonstrates model evaluation and hyperparameter tuning.
-
-### 4. Spark Streaming
-- Introduces real-time data processing using **Spark Streaming**.
-- Provides examples for streaming data ingestion and processing.
-
-### 5. Performance Tuning
-- Offers tips and techniques for optimizing Spark applications.
-- Covers configurations for **memory management**, **caching**, and **shuffle operations**.
-
 ## How to Run
 
 1. **Set up your Spark environment** as described in the Installation section.
