@@ -1,6 +1,6 @@
 # Apache Spark Big Data Taming
 
-Welcome to the **Apache Spark Big Data Taming** repository! This project is dedicated to practicing and mastering the use of **Apache Spark**, an open-source unified analytics engine for large-scale data processing. Here, you'll find various examples and exercises that demonstrate how to handle big data using Spark's core functionalities, including Spark SQL, DataFrames, RDDs, and Machine Learning libraries.
+Welcome to the **Apache Spark Big Data Taming** repository! This project is dedicated to practicing and mastering the use of **Apache Spark**, an open-source unified analytics engine for large-scale data processing. Here, you'll find various examples and exercises that demonstrate how to handle big data using Spark's core functionalities, including Spark SQL, DataFrames and RDDs.
 
 ## Table of Contents
 
@@ -99,22 +99,8 @@ Apache-Spark-Big-Data-Taming/
 ## How to Run
 
 1. **Set up your Spark environment** as described in the Installation section.
-2. **Run a script or Jupyter notebook**:
-   - To run a Python script: 
-     ```bash
-     spark-submit python/rdd_example.py
-     ```
-   - To run a Scala script:
-     ```bash
-     spark-submit --class RDDExample scala/target/scala-2.11/RDDExample.jar
-     ```
-   - To run a Jupyter notebook:
-     ```bash
-     jupyter notebook
-     ```
-     Open the desired notebook from the `notebooks/` folder.
 
-3. **Use Spark Shells**:
+2. **Use Spark Shells**:
    - Start the **PySpark shell** for interactive Python sessions:
      ```bash
      pyspark
@@ -124,9 +110,3 @@ Apache-Spark-Big-Data-Taming/
      spark-shell
      ```
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
-
-This README provides a detailed overview of the project, setup instructions, key features, and how to run the examples. It should make it easier for users to understand the purpose of the repository and start using Apache Spark for big data processing.
